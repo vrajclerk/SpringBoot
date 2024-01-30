@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Patient Appointment Registration</h1>
-    <form method="post" action="addAppointment.jsp">
+    <form method="post" action="addAppointment">
         <p>
             Name:<input type="text" name="patientName"/>
         </p>

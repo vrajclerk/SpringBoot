@@ -12,8 +12,6 @@
 </head>
 <body>
     <h1>Patient Appointment Registration Status</h1>
-<p>
-    ${message}
-</p>
+    <p>${message}</p>
 </body>
 </html>

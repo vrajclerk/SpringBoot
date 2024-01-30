@@ -6,20 +6,22 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
+    <h1>${mainHeader}</h1>
     <title>Patient Appointment Registration</title>
 </head>
 <body>
     <h1>Patient Appointment Registration</h1>
-    <form method="post" action="addAppointment">
+    <form:form method="post" action="addAppointment">
         <p>
-            Name:<input type="text" name="patientName"/>
+            Name:<form:input type="text" path="patientName"/>
         </p>
         <p>
-            Contact No.:<input type="text" name="patientContact" />
+            Contact No.:<form:input type="text" path="patientContact"/>
         </p>
         <input type="submit" value="Add Appointment" />
-    </form>
+    </form:form>
 </body>
 </html>

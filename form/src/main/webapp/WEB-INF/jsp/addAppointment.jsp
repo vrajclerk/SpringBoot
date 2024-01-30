@@ -11,7 +11,19 @@
     <title>Patient Appointment Registration Status</title>
 </head>
 <body>
+    <h1>${mainHeader}</h1>
     <h1>Patient Appointment Registration Status</h1>
     <p>${message}</p>
+
+    <table>
+        <tr>
+            <td>Patient Name:</td>
+            <td>${patient.patientName}</td>
+        </tr>
+        <tr>
+            <td>Patient Contact:</td>
+            <td>${patient.patientContact}</td>
+        </tr>
+    </table>
 </body>
 </html>

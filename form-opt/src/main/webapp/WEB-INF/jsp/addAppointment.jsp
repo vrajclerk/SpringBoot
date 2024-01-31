@@ -25,25 +25,60 @@
         <td>Patient Contact:</td>
         <td>${patient.patientContact}</td>
     </tr>
-
     <tr>
-        <td>Newsletter Subscription:</td>
-        <td>${patient.receiveNewsletter}</td>
+        <td>Patient Gender:</td>
+        <td>${patient.patientGender}</td>
     </tr>
     <tr>
-        <td>Hobbies:</td>
+        <td>Patient DOB:</td>
+        <td>${patient.patientDOB}</td>
+    </tr>
+    <tr>
+        <td>Patient Allergies:</td>
         <td>
-            <c:forEach var="hobby" items="${patient.hobbies}">
-                ${hobby}<br/>
+            <c:forEach var="allergy" items="${patient.patientAllergies}">
+                ${allergy}<br/>
             </c:forEach>
         </td>
     </tr>
     <tr>
-        <td>Crush:</td>
-        <td>
-            ${patient.crush}
-        </td>
+        <td colspan="2">Address Details:</td>
     </tr>
+    <tr>
+        <td>Patient Street:</td>
+        <td>${patient.patientAddress.street}</td>
+<%--        <td>${patient.receiveNewsletter}</td>--%>
+    </tr>
+    <tr>
+        <td>Patient City:</td>
+        <td>${patient.patientAddress.city}</td>
+    </tr>
+    <tr>
+        <td>Patient State:</td>
+        <td>${patient.patientAddress.state}</td>
+    </tr>
+    <tr>
+        <td>Patient Country:</td>
+        <td>${patient.patientAddress.country}</td>
+    </tr>
+    <tr>
+        <td>Patient Pincode:</td>
+        <td>${patient.patientAddress.pincode}</td>
+    </tr>
+<%--    <tr>--%>
+<%--        <td>Hobbies:</td>--%>
+<%--        <td>--%>
+<%--            <c:forEach var="hobby" items="${patient.hobbies}">--%>
+<%--                ${hobby}<br/>--%>
+<%--            </c:forEach>--%>
+<%--        </td>--%>
+<%--    </tr>--%>
+<%--    <tr>--%>
+<%--        <td>Crush:</td>--%>
+<%--        <td>--%>
+<%--&lt;%&ndash;            ${patient.crush}&ndash;%&gt;--%>
+<%--        </td>--%>
+<%--    </tr>--%>
 </table>
 </body>
 </html>

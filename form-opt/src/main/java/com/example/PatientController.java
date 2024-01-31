@@ -7,17 +7,22 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.Arrays;
+
 @Controller
 public class PatientController {
 
     @RequestMapping("/appointment")
-    public ModelAndView appointment(){
+    public ModelAndView appointment(Model model){
         Patient patient=new Patient();
         patient.setPatientName("PatientName");
         patient.setPatientContact(("xxxxxxxxxx"));
-        patient.setReceiveNewsletter(true);
-        patient.setHobbies(new String[]{"Cricket"});
-        patient.setCrush("Ellyse Perry");
+        patient.setPatientGender("Male");
+        model.addAttribute("countryList", Arrays.asList("India","Australia","USA","UAE","Singapore"));
+        model.addAttribute("allergyList",Arrays.asList("Smoke","Dust","Soya Sauce"));
+//        patient.setReceiveNewsletter(true);
+//        patient.setHobbies(new String[]{"Cricket"});
+//        patient.setCrush("Ellyse Perry");
         return new ModelAndView("appointment","patient",patient);
     }
     @PostMapping("/addAppointment")

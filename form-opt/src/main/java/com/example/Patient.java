@@ -1,12 +1,22 @@
 package com.example;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.util.List;
+
 public class Patient {
     private String patientName;
 
     private String patientContact;
-    private boolean receiveNewsletter;
-    private String [] hobbies;
-    private String crush;
+    private String patientGender;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private String patientDOB;
+    private List<String> patientAllergies;
+    private PatientAddress patientAddress;
+
+//    private boolean receiveNewsletter;
+//    private String [] hobbies;
+//    private String crush;
 
     public String getPatientName() {
         return patientName;
@@ -24,27 +34,36 @@ public class Patient {
         this.patientContact = patientContact;
     }
 
-    public boolean isReceiveNewsletter() {
-        return receiveNewsletter;
+
+    public String getPatientGender() {
+        return patientGender;
     }
 
-    public void setReceiveNewsletter(boolean receiveNewsletter) {
-        this.receiveNewsletter = receiveNewsletter;
+    public void setPatientGender(String patientGender) {
+        this.patientGender = patientGender;
     }
 
-    public String[] getHobbies() {
-        return hobbies;
+    public String getPatientDOB() {
+        return patientDOB;
     }
 
-    public void setHobbies(String[] hobbies) {
-        this.hobbies = hobbies;
+    public void setPatientDOB(String patientDOB) {
+        this.patientDOB = patientDOB;
     }
 
-    public String getCrush() {
-        return crush;
+    public List<String> getPatientAllergies() {
+        return patientAllergies;
     }
 
-    public void setCrush(String crush) {
-        this.crush = crush;
+    public void setPatientAllergies(List<String> patientAllergies) {
+        this.patientAllergies = patientAllergies;
+    }
+
+    public PatientAddress getPatientAddress() {
+        return patientAddress;
+    }
+
+    public void setPatientAddress(PatientAddress patientAddress) {
+        this.patientAddress = patientAddress;
     }
 }

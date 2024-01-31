@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad46d2c5-a49b-455e-8fb2-0e3d4030e6d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/PatientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/MySpringMvcAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/WebApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addAppointment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/appointment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../form/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/PatientAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addAppointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addAppointment.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/appointment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/appointment.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-config/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pathvars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pathvars/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -40,6 +36,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -114,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706704130481</updated>
-      <workItem from="1706704131563" duration="5271000" />
+      <workItem from="1706704131563" duration="10596000" />
     </task>
     <servers />
   </component>

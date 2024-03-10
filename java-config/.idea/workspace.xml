@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14c9cf1d-f8c2-43dc-b533-fabed1b0dd88" name="Changes" comment="" />
+    <list default="true" id="14c9cf1d-f8c2-43dc-b533-fabed1b0dd88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../form-opt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/src/main/java/com/example/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/src/main/java/com/example/PatientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/src/main/java/com/example/config/MySpringMvcAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/src/main/java/com/example/config/WebApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/src/main/webapp/WEB-INF/jsp/addApointment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../form-opt/src/main/webapp/WEB-INF/jsp/appointment.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pathvars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pathvars/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -27,21 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/fsd-springboot/SpringBoot/java-config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -59,6 +75,7 @@
       <updated>1706114760439</updated>
       <workItem from="1706114761622" duration="7106000" />
       <workItem from="1706435337524" duration="1020000" />
+      <workItem from="1706705798121" duration="328000" />
     </task>
     <servers />
   </component>

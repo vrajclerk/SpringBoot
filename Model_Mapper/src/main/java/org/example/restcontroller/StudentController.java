@@ -5,7 +5,10 @@ import org.example.entity.Student;
 import org.example.repository.StudentRepository;
 import org.example.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -30,20 +33,5 @@ public class StudentController {
         return studentService.findById(studentId);
     }
 
-    @PostMapping("/students")
-    public Student createStudent(@RequestBody Student student){
-        return studentService.save(student);
-    }
 
-    @PatchMapping("/students/{studentId}")
-    public Student updateStudent(@RequestBody Student student,
-                                 @PathVariable int studentId){
-        return studentService.update(studentId, student);
-    }
-
-    @DeleteMapping("/students/{studentId}")
-    public String deleteStudentById(@PathVariable int studentId){
-        studentService.deleteById(studentId);
-        return "Student with id " + studentId+" was deleted successfully";
-    }
 }

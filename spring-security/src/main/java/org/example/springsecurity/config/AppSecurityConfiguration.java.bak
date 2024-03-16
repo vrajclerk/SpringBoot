@@ -1,0 +1,35 @@
+package org.example.springsecurity.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.provisioning.UserDetailsManager;
+
+@Configuration    //tells spring that class contains configuration
+public class AppSecurityConfiguration {
+
+//    @Bean
+//    public UserDetailsManager userDetailsManager(){
+//        UserDetails vraj = User.builder()
+//                .username("vraj")
+//                .password("{noop}pass123")
+//                .roles("STUDENT")
+//                .build();
+//
+//        UserDetails niraj = User.builder()
+//                .username("niraj")
+//                .password("{noop}pass123")
+//                .roles("TEACHER")
+//                .build();
+//        UserDetails darshini = User.builder()
+//                .username("darshini")
+//                .password("{noop}pass123")
+//                .roles("TEACHER", "ADMIN")
+//                .build();
+//
+//        return new InMemoryUserDetailsManager(vraj,niraj,darshini);
+//    }
+
+        }
